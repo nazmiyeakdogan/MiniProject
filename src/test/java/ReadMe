@@ -1,0 +1,18 @@
+
+
+Bu projeyle Logo Yazılım özelinde web sitesinde Search Functionality testi yapılmıştır.
+Search box üzerinden Elazığ Şubesine tıklanıp sayfada görüntülendiğinin doğrulaması yapılmıştır.
+Proje Test.feature veya detaylı raporlama almak için TestRunner' dan çalıştırılabilir.
+
+Maven repository verdiği düzenli yapının yanında projemdeki klasör yapısı şöyledir:
+
+   Klasörlerim ve içerikleri :
+
+   FeatureFiles   -> Senaryonun bulunduğu package.
+   StepDefinitions-> Senaryo steplerinin ve metodların bulunduğu package.
+   Pages          -> Page Object Modell(POM)(@FindBy) formatında  Locatorlerim ve dönüşümlerinin bulunduğu package.
+   Utilities      -> Driver ait işlemlerin yapıldığı package.
+   Runners        -> Exdent report için kullanılan package.
+   XMLFile        -> Extend rapor set etmek için kullanılan package.
+   Test-output    -> Ayrıntılı raporların bulunduğu default oluşan package.
+
